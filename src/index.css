@@ -1,64 +1,79 @@
-.to-do-list{
-  font-family: Arial,sans-serif;
+.to-do-list {
+  font-family: Arial, sans-serif;
   text-align: center;
   margin-top: 100px;
 }
-h1{
+
+h1 {
   font-size: 4rem;
 }
-button{
+
+button {
   font-size: 1.0rem;
   font-weight: bold;
   padding: 10px 20px;
-  color:black;
+  color: black;
   border: none;
   border-radius: 5px;
-  cursor:pointer ;
-  transition: background-color 0.5s ease ;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
 }
-.add-button{
+
+.add-button {
   background-color: rgb(68, 255, 0);
 }
-.add-button:hover{
+
+.add-button:hover {
   background-color: rgba(0, 217, 255, 0.448);
 }
-.delete-button{
-  background-color:hsl(0, 83%, 62%);
+
+.delete-button {
+  background-color: hsl(0, 83%, 62%);
 }
-.delete-button:hover{
-  background-color:hsl(9, 54%, 95%);
+
+.delete-button:hover {
+  background-color: hsl(9, 54%, 95%);
 }
-/* .move-button{
-  background-color:hsl(191, 89%, 61%);
-}
-.move-button:hover{
-  background-color:hsl(255, 47%, 54%);
-} */
-input[type="text"]{
+
+input[type="text"] {
   font-size: 1.6rem;
   padding: 5px;
   border: 2px solid rgb(4, 2, 2);
   border-radius: 5px;
   color: rgb(11, 13, 11);
 }
-ol{
-  padding:0;
+
+ol {
+  padding: 0;
 }
-li{
+
+li {
   font-size: 2rem;
   font-weight: bold;
-  padding: 15px;background-color: hsl(0,0%,97%);
+  padding: 15px;
+  background-color: hsl(0, 0%, 97%);
   margin-bottom: 10px;
-  border: 3px solid hsl(0,0%,85%,0.762);
+  border: 3px solid hsl(0, 0%, 85%, 0.762);
   border-radius: 5px;
   display: flex;
   align-items: center;
 }
-.text{
+
+.text {
   flex: 1;
 }
-.delete-button,.move-button{
-  padding:8px 12px;
+
+.delete-button,
+.move-button {
+  padding: 8px 12px;
   font-size: 1.4rem;
-  margin-left: 10px;
+  margin-left: auto; /* Aligns delete button at the end */
+}
+
+.checkbox-container {
+  margin-right: 10px; /* Adjust margin as needed */
+}
+
+.completed {
+  text-decoration: line-through;
 }
