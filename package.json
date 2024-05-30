@@ -24,3 +24,6 @@
     "vite": "^5.2.0"
   }
 }
+"scripts": {
+  "build": "chmod +x node_modules/.bin/vite && vite build"
+}
